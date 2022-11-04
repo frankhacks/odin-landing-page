@@ -1,0 +1,53 @@
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+    background: rgb(255, 255, 255);
+    font-family:'Courier New', Courier, monospace;
+    color: slategray;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.logo {
+    width: 20px;
+    height: 20px;
+}
+
+.tophalf {
+    background-color: rgb(233, 233, 233);
+    padding: 8px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.tagline {
+    font-size: larger;
+    font-weight: 500;
+    color: darkslategray;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.heroleft {
+    flex-wrap: wrap;
+    width: 400px;
+    justify-content: center;
+}
+
+.heroimg {
+    width: 500px;
+    border-radius: 25px;
+}
