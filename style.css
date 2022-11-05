@@ -32,6 +32,11 @@ body {
     font-size: larger;
     font-weight: 500;
     color: darkslategray;
+    padding-bottom: 8px;
+}
+
+.description {
+    padding-bottom: 8px;
 }
 
 .hero {
@@ -39,15 +44,51 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 25px;
+    gap: 25px;
+}
+
+button {
+    padding: 12px 24px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    background-color: slategray;
+    border-radius: 12px;
+    color: white;
+    font-size: medium;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .heroleft {
     flex-wrap: wrap;
-    width: 400px;
-    justify-content: center;
+    width: 45%;
 }
 
 .heroimg {
-    width: 500px;
+    width: 45%;
     border-radius: 25px;
+}
+
+.middle {
+    text-align: center;
+    padding: 25px;
+}
+
+.samples {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 25px;
+    
+}
+
+.link, .twit, .fb, .insta {
+    width: 185px;
+}
+
+.middle2 {
+    background-image: url(img/background.jpg);
+    height: 1000px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
